@@ -37,7 +37,7 @@ namespace HarmonyMod
 	{
 		static void Postfix()
 		{
-			var str = $"Harmony v{HarmonyMain.harmonyVersion}";
+			var str = $"Harmony (Patched for Apple Silicon) v{HarmonyMain.harmonyVersion}";
 			Text.Font = GameFont.Small;
 			GUI.color = Color.white.ToTransparent(0.5f);
 			var size = Text.CalcSize(str);
